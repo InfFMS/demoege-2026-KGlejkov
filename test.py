@@ -1,7 +1,6 @@
 #НОмер 16
-stack.append(args)
-                cache[args] = f(*args)
-                stack.pop()
+import sys
+sys.setrecursionlimit(20000)
 def G(n):
     if n<10:
         return 2*n
